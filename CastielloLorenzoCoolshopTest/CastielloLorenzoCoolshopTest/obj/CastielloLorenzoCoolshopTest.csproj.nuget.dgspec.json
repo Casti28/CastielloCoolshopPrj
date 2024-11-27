@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ICTS23-25.159\\Desktop\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest.csproj": {}
+    "C:\\Users\\ICTS23-25.159\\Desktop\\CastielloCoolshopPrj\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ICTS23-25.159\\Desktop\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest.csproj": {
+    "C:\\Users\\ICTS23-25.159\\Desktop\\CastielloCoolshopPrj\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ICTS23-25.159\\Desktop\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest.csproj",
+        "projectUniqueName": "C:\\Users\\ICTS23-25.159\\Desktop\\CastielloCoolshopPrj\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest.csproj",
         "projectName": "CastielloLorenzoCoolshopTest",
-        "projectPath": "C:\\Users\\ICTS23-25.159\\Desktop\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest.csproj",
+        "projectPath": "C:\\Users\\ICTS23-25.159\\Desktop\\CastielloCoolshopPrj\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest.csproj",
         "packagesPath": "C:\\Users\\ICTS23-25.159\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ICTS23-25.159\\Desktop\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest\\obj\\",
+        "outputPath": "C:\\Users\\ICTS23-25.159\\Desktop\\CastielloCoolshopPrj\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
