@@ -90,12 +90,34 @@ namespace CastielloLorenzoCoolshopTest
         public static Order highestTotal(List<Order> list)
         {
             // order by descending (unit price * quantity - discount) and get the first element
-            var highest = list
+            var highestTot = list
                 .OrderByDescending(order =>
                     order.UnitPrice * order.Quantity - (order.UnitPrice * order.Quantity * (order.PercentageDiscount / 100)))
                 .FirstOrDefault();
 
-            return highest;
+            return highestTot;
+        }
+
+        public static Order highestQuantity(List<Order> list)
+        {
+            // order by descending (quantity) and get the first element
+            var highestQt = list
+                .OrderByDescending(order =>
+                    order.Quantity)
+                .FirstOrDefault();
+
+            return highestQt;
+        }
+
+        public static Order highestDifference(List<Order> list)
+        {
+            // order by descending (unit price * quantity - discount) and get the first element
+            var highestDiff = list
+                .OrderByDescending(order =>
+                    order.UnitPrice * order.Quantity - (order.UnitPrice * order.Quantity * (order.PercentageDiscount / 100)))
+                .FirstOrDefault();
+
+            return highestDiff;
         }
 
         static void Main(string[] args)
@@ -123,6 +145,11 @@ namespace CastielloLorenzoCoolshopTest
 
                 // print the record with the highest total (quantity * unit price - discount)
                 Console.WriteLine($"\nHighest total\n{highestTotal(orders)}");
+
+                // print the record with the highest quantity
+                Console.WriteLine($"\nHighest quantity\n{highestQuantity(orders)}");
+
+
 
             }
             else
