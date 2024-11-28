@@ -8,8 +8,8 @@ namespace CastielloLorenzoCoolshopTest
         {
             Console.WriteLine("Coolshop Backend Test");
 
-            // file csv path (example)
-            string filePath = @"..\..\..\file\orders.csv";
+            // get the csv file path from the console
+            string filePath = Console.ReadLine();
 
             // stream reader for the file
             StreamReader reader = new StreamReader(filePath);
