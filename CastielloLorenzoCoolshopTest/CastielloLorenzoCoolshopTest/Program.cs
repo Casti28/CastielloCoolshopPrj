@@ -87,6 +87,9 @@ namespace CastielloLorenzoCoolshopTest
             }
         }
 
+        /**
+         * Find the record with the highest total (unit price * quantity) using a LINQ
+         */
         public static Order highestTotal(List<Order> list)
         {
             // order by descending (unit price * quantity - discount) and get the first element
@@ -98,6 +101,9 @@ namespace CastielloLorenzoCoolshopTest
             return highestTot;
         }
 
+        /**
+         * Find the record with the highest quantity using a LINQ
+         */
         public static Order highestQuantity(List<Order> list)
         {
             // order by descending (quantity) and get the first element
@@ -109,17 +115,23 @@ namespace CastielloLorenzoCoolshopTest
             return highestQt;
         }
 
+        /**
+         * Find the record with the highest difference between total and total with discount using a LINQ
+         */
         public static Order highestDifference(List<Order> list)
         {
-            // order by descending (unit price * quantity - discount) and get the first element
+            // order by descending (difference between total and total without discount) and get the first element
             var highestDiff = list
                 .OrderByDescending(order =>
-                    order.UnitPrice * order.Quantity - (order.UnitPrice * order.Quantity * (order.PercentageDiscount / 100)))
+                    order.UnitPrice * order.Quantity - (order.UnitPrice * order.Quantity - (order.UnitPrice * order.Quantity * (order.PercentageDiscount / 100))))
                 .FirstOrDefault();
 
             return highestDiff;
         }
 
+        /**
+         * Main program
+         */
         static void Main(string[] args)
         {
             Console.WriteLine("Coolshop Backend Test");
@@ -141,16 +153,14 @@ namespace CastielloLorenzoCoolshopTest
                 // popolate the orders list
                 popolateList(orders, lines);
 
-                orders.ForEach(o => Console.WriteLine(o.ToString()));
-
                 // print the record with the highest total (quantity * unit price - discount)
-                Console.WriteLine($"\nHighest total\n{highestTotal(orders)}");
+                Console.WriteLine($"\nRecord with the highest total\n{highestTotal(orders)}");
 
                 // print the record with the highest quantity
-                Console.WriteLine($"\nHighest quantity\n{highestQuantity(orders)}");
+                Console.WriteLine($"\nRecord with the highest quantity\n{highestQuantity(orders)}");
 
-
-
+                // print the record with the highest quantity
+                Console.WriteLine($"\nRecord with the highest difference between total and total with discount\n{highestDifference(orders)}");
             }
             else
             {
