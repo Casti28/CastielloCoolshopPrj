@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace CastielloLorenzoCoolshopTest
 {
@@ -43,7 +44,7 @@ namespace CastielloLorenzoCoolshopTest
                 // get the number of columns
                 var columnNumber = lines[0].Split(',').Length;
 
-                // loop through each line
+                // loop through the lines
                 foreach (var line in lines)
                 {
                     // check if every line has the same number of columns
@@ -64,7 +65,7 @@ namespace CastielloLorenzoCoolshopTest
          */
         public static void popolateList(List<Order> list, string[] lines)
         {
-            // loop through each line (skip the first one)
+            // loop through the lines (skip the first one)
             foreach (var line in lines.Skip(1))
             {
                 // create an order object using the class Order
@@ -86,6 +87,17 @@ namespace CastielloLorenzoCoolshopTest
             }
         }
 
+        public static Order highestTotal(List<Order> list)
+        {
+            // order by descending (unit price * quantity - discount) and get the first element
+            var highest = list
+                .OrderByDescending(order =>
+                    order.UnitPrice * order.Quantity - (order.UnitPrice * order.Quantity * (order.PercentageDiscount / 100)))
+                .FirstOrDefault();
+
+            return highest;
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Coolshop Backend Test");
@@ -101,13 +113,17 @@ namespace CastielloLorenzoCoolshopTest
             {
                 // store the lines (strings array) into a variable
                 string[] lines = File.ReadAllLines(filePath);
-
                 // create a list for the orders
                 List<Order> orders = new List<Order>();
 
+                // popolate the orders list
                 popolateList(orders, lines);
 
                 orders.ForEach(o => Console.WriteLine(o.ToString()));
+
+                // print the record with the highest total (quantity * unit price - discount)
+                Console.WriteLine($"\nHighest total\n{highestTotal(orders)}");
+
             }
             else
             {
