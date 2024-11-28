@@ -23,13 +23,11 @@ namespace CastielloLorenzoCoolshopTest
                 // check if file name ends with .csv (has csv extension)
                 if (!file.EndsWith(".csv"))
                 {
-                    Console.WriteLine("The file is not a csv");
                     return false;
                 }
                 // check if the file exists
                 if (!File.Exists(file))
                 {
-                    Console.WriteLine("The file doesn't exist");
                     return false;
                 }
 
@@ -39,7 +37,6 @@ namespace CastielloLorenzoCoolshopTest
                 // check if the file is empty
                 if (lines.Length == 0)
                 {
-                    Console.WriteLine("The file is empty");
                     return false;
                 }
 
@@ -52,7 +49,6 @@ namespace CastielloLorenzoCoolshopTest
                     // check if every line has the same number of columns
                     if (line.Split(',').Length != columnNumber)
                     {
-                        Console.WriteLine("The file is not valid");
                         return false;
                     }
                 }
@@ -60,8 +56,34 @@ namespace CastielloLorenzoCoolshopTest
                 return true;
             }
             // if the file is not valid
-            Console.WriteLine("The file is not valid");
             return false;
+        }
+
+        /**
+         * Popolate a list of orders
+         */
+        public static void popolateList(List<Order> list, string[] lines)
+        {
+            // loop through each line (skip the first one)
+            foreach (var line in lines.Skip(1))
+            {
+                // create an order object using the class Order
+                var order = new Order();
+
+                // split the line
+                string[] data = line.Split(',');
+
+                // configure order object
+                order.Id = int.Parse(data.ElementAt(0));
+                order.ArticleName = data.ElementAt(1);
+                order.Quantity = int.Parse(data.ElementAt(2));
+                order.UnitPrice = double.Parse(data.ElementAt(3));
+                order.PercentageDiscount = double.Parse(data.ElementAt(4));
+                order.Buyer = data.ElementAt(5);
+
+                // add the order to the list
+                list.Add(order);
+            }
         }
 
         static void Main(string[] args)
@@ -83,28 +105,13 @@ namespace CastielloLorenzoCoolshopTest
                 // create a list for the orders
                 List<Order> orders = new List<Order>();
 
-                // loop through each line (skip the first one)
-                foreach (var line in lines.Skip(1))
-                {
-                    // create an order object using the class Order
-                    var order = new Order();
-
-                    // split the line
-                    string[] data = line.Split(',');
-
-                    // configure order object
-                    order.Id = int.Parse(data.ElementAt(0));
-                    order.ArticleName = data.ElementAt(1);
-                    order.Quantity = int.Parse(data.ElementAt(2));
-                    order.UnitPrice = double.Parse(data.ElementAt(3));
-                    order.PercentageDiscount = double.Parse(data.ElementAt(4));
-                    order.Buyer = data.ElementAt(5);
-
-                    // add the order to the list
-                    orders.Add(order);
-                }
+                popolateList(orders, lines);
 
                 orders.ForEach(o => Console.WriteLine(o.ToString()));
+            }
+            else
+            {
+                Console.WriteLine("The file is not valid");
             }
         }
     }
