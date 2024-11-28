@@ -1,0 +1,15 @@
+C:\Users\ICTS23-25.159\Desktop\CastielloCoolshopPrj\CastielloLorenzoCoolshopTest\CastielloLorenzoCoolshopTest\bin\Debug\net8.0\CastielloLorenzoCoolshopTest.exe
+C:\Users\ICTS23-25.159\Desktop\CastielloCoolshopPrj\CastielloLorenzoCoolshopTest\CastielloLorenzoCoolshopTest\bin\Debug\net8.0\CastielloLorenzoCoolshopTest.deps.json
+C:\Users\ICTS23-25.159\Desktop\CastielloCoolshopPrj\CastielloLorenzoCoolshopTest\CastielloLorenzoCoolshopTest\bin\Debug\net8.0\CastielloLorenzoCoolshopTest.runtimeconfig.json
+C:\Users\ICTS23-25.159\Desktop\CastielloCoolshopPrj\CastielloLorenzoCoolshopTest\CastielloLorenzoCoolshopTest\bin\Debug\net8.0\CastielloLorenzoCoolshopTest.dll
+C:\Users\ICTS23-25.159\Desktop\CastielloCoolshopPrj\CastielloLorenzoCoolshopTest\CastielloLorenzoCoolshopTest\bin\Debug\net8.0\CastielloLorenzoCoolshopTest.pdb
+C:\Users\ICTS23-25.159\Desktop\CastielloCoolshopPrj\CastielloLorenzoCoolshopTest\CastielloLorenzoCoolshopTest\obj\Debug\net8.0\CastielloLorenzoCoolshopTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ICTS23-25.159\Desktop\CastielloCoolshopPrj\CastielloLorenzoCoolshopTest\CastielloLorenzoCoolshopTest\obj\Debug\net8.0\CastielloLorenzoCoolshopTest.AssemblyInfoInputs.cache
+C:\Users\ICTS23-25.159\Desktop\CastielloCoolshopPrj\CastielloLorenzoCoolshopTest\CastielloLorenzoCoolshopTest\obj\Debug\net8.0\CastielloLorenzoCoolshopTest.AssemblyInfo.cs
+C:\Users\ICTS23-25.159\Desktop\CastielloCoolshopPrj\CastielloLorenzoCoolshopTest\CastielloLorenzoCoolshopTest\obj\Debug\net8.0\CastielloLorenzoCoolshopTest.csproj.CoreCompileInputs.cache
+C:\Users\ICTS23-25.159\Desktop\CastielloCoolshopPrj\CastielloLorenzoCoolshopTest\CastielloLorenzoCoolshopTest\obj\Debug\net8.0\CastielloLorenzoCoolshopTest.sourcelink.json
+C:\Users\ICTS23-25.159\Desktop\CastielloCoolshopPrj\CastielloLorenzoCoolshopTest\CastielloLorenzoCoolshopTest\obj\Debug\net8.0\CastielloLorenzoCoolshopTest.dll
+C:\Users\ICTS23-25.159\Desktop\CastielloCoolshopPrj\CastielloLorenzoCoolshopTest\CastielloLorenzoCoolshopTest\obj\Debug\net8.0\refint\CastielloLorenzoCoolshopTest.dll
+C:\Users\ICTS23-25.159\Desktop\CastielloCoolshopPrj\CastielloLorenzoCoolshopTest\CastielloLorenzoCoolshopTest\obj\Debug\net8.0\CastielloLorenzoCoolshopTest.pdb
+C:\Users\ICTS23-25.159\Desktop\CastielloCoolshopPrj\CastielloLorenzoCoolshopTest\CastielloLorenzoCoolshopTest\obj\Debug\net8.0\CastielloLorenzoCoolshopTest.genruntimeconfig.cache
+C:\Users\ICTS23-25.159\Desktop\CastielloCoolshopPrj\CastielloLorenzoCoolshopTest\CastielloLorenzoCoolshopTest\obj\Debug\net8.0\ref\CastielloLorenzoCoolshopTest.dll

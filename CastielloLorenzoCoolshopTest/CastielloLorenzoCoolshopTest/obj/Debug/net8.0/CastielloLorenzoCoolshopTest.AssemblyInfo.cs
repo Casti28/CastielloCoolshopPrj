@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CastielloLorenzoCoolshopTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+897f2ebd38694540ba03a69643070442e4a5e471")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9059e224c8b178ffa47c69c3488762b866045e95")]
 [assembly: System.Reflection.AssemblyProductAttribute("CastielloLorenzoCoolshopTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CastielloLorenzoCoolshopTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

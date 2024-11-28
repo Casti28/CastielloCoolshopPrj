@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ICTS23-25.159\\Desktop\\CastielloCoolshopPrj\\CastielloLorenzoCoolshopTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C259D10A-F3E9-41F3-AB7D-A581140D31F6}|CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest.csproj|c:\\users\\icts23-25.159\\desktop\\castiellocoolshopprj\\castiellolorenzocoolshoptest\\castiellolorenzocoolshoptest\\file\\orders.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{C259D10A-F3E9-41F3-AB7D-A581140D31F6}|CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest.csproj|solutionrelative:castiellolorenzocoolshoptest\\file\\orders.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ICTS23-25.159\\Desktop\\CastielloCoolshopPrj\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest\\Order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CastielloLorenzoCoolshopTest\\Order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C259D10A-F3E9-41F3-AB7D-A581140D31F6}|CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest.csproj|c:\\users\\icts23-25.159\\desktop\\castiellocoolshopprj\\castiellolorenzocoolshoptest\\castiellolorenzocoolshoptest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C259D10A-F3E9-41F3-AB7D-A581140D31F6}|CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest.csproj|solutionrelative:castiellolorenzocoolshoptest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C259D10A-F3E9-41F3-AB7D-A581140D31F6}|CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest.csproj|c:\\users\\icts23-25.159\\desktop\\castiellocoolshopprj\\castiellolorenzocoolshoptest\\castiellolorenzocoolshoptest\\file\\orders.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C259D10A-F3E9-41F3-AB7D-A581140D31F6}|CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest.csproj|solutionrelative:castiellolorenzocoolshoptest\\file\\orders.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\ICTS23-25.159\\Desktop\\CastielloCoolshopPrj\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest\\Order.cs",
+              "RelativeDocumentMoniker": "CastielloLorenzoCoolshopTest\\Order.cs",
+              "ToolTip": "C:\\Users\\ICTS23-25.159\\Desktop\\CastielloCoolshopPrj\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest\\Order.cs",
+              "RelativeToolTip": "CastielloLorenzoCoolshopTest\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T11:45:35.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "orders.csv",
               "DocumentMoniker": "C:\\Users\\ICTS23-25.159\\Desktop\\CastielloCoolshopPrj\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest\\file\\orders.csv",
               "RelativeDocumentMoniker": "CastielloLorenzoCoolshopTest\\file\\orders.csv",
@@ -30,8 +47,7 @@
               "RelativeToolTip": "CastielloLorenzoCoolshopTest\\file\\orders.csv",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2024-11-27T07:57:49.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T07:57:49.202Z"
             },
             {
               "$type": "Document",
@@ -41,7 +57,7 @@
               "RelativeDocumentMoniker": "CastielloLorenzoCoolshopTest\\Program.cs",
               "ToolTip": "C:\\Users\\ICTS23-25.159\\Desktop\\CastielloCoolshopPrj\\CastielloLorenzoCoolshopTest\\CastielloLorenzoCoolshopTest\\Program.cs",
               "RelativeToolTip": "CastielloLorenzoCoolshopTest\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAABoAAABAmJmZmRkUwC8AAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T07:50:09.772Z"
             }
