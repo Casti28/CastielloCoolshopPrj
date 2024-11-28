@@ -154,13 +154,13 @@ namespace CastielloLorenzoCoolshopTest
                 popolateList(orders, lines);
 
                 // print the record with the highest total (quantity * unit price - discount)
-                Console.WriteLine($"\nRecord with the highest total\n{highestTotal(orders)}");
+                Console.WriteLine($"\nRecord with the highest total\n{ highestTotal(orders) }");
 
                 // print the record with the highest quantity
-                Console.WriteLine($"\nRecord with the highest quantity\n{highestQuantity(orders)}");
+                Console.WriteLine($"\nRecord with the highest quantity\n{ highestQuantity(orders) }");
 
                 // print the record with the highest quantity
-                Console.WriteLine($"\nRecord with the highest difference between total and total with discount\n{highestDifference(orders)}");
+                Console.WriteLine($"\nRecord with the highest difference between total and total with discount\n{ highestDifference(orders) }");
             }
             else
             {
